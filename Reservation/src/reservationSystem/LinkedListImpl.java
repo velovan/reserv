@@ -38,6 +38,7 @@ public class LinkedListImpl<T> implements LinkedList<T> {
 		return currentNode;
 	}
 
+	
 	@Override
 	public Node<T> findById(T id) {
 		Node<T> currentNode = head;
