@@ -31,7 +31,7 @@ public class LinkedListImpl<T> implements LinkedList<T> {
 	public Node<T> findByIndex(int index) {
 		Node<T> currentNode = head;
 		if (index >= size)
-			throw new HotelException("Index inputed greatest than size");
+		    throw new HotelException("Index inputed greatest than size");
 		while (index-- != 0) {
 			currentNode = currentNode.next;
 		}
