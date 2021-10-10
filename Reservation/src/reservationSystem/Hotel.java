@@ -51,5 +51,4 @@ public class Hotel {
 	public void display() {
 		System.out.println(accounts);
 	}
-
 }
