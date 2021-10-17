@@ -26,6 +26,7 @@ public class SaveLoad {
 		Object res = ois.readObject();
 		ois.close();
 		fis.close();
+		
 		return res;
 	}
 
