@@ -78,7 +78,7 @@ public class Form implements Serializable {
 	@Override
 	public String toString() {
 		return "[ name=" + name + ", days=" + days + ", breakfast=" + breakfast + ", roomType=" + roomType(roomType)
-				+ ", Price=" + costs() + "SR" + ", id=" + id + " ]" + "\n";
+		+ ", Price=" + costs() + "SR" + ", id=" + id + " ]" + "\n";
 	}
 
 	public boolean equals(Object other) {
@@ -115,6 +115,5 @@ public class Form implements Serializable {
 	private static Scanner input() {
 		return new Scanner(System.in);
 	}
-	
 	
 }
