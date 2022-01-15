@@ -40,7 +40,7 @@ public class HotelTest {
 
 	public static int menu() {
 		System.out.printf("1- for add \n2- for search \n"
-				+ "3- for delete \n4- for print\n Enter any number to terminate  \n ::");
+			+ "3- for delete \n4- for print\n Enter any number to terminate  \n ::");
 		return input().nextInt();
 	}
 
