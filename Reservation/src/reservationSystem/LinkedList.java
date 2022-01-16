@@ -16,4 +16,5 @@ public interface LinkedList<T> extends Serializable {
 
 	public String toString();
 
+	
 }
